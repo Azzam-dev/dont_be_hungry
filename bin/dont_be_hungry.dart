@@ -10,7 +10,8 @@ void startGame() {
   List<Monster> monsters = [
     Monster("Ghost!👻", 20),
     Monster("Zombie!🧟‍♂️", 15),
-    Monster("Slender Man! 🤵🏻‍♂️", 30)
+    Monster("Slender Man! 🤵🏻‍♂️", 30),
+    Monster("lion🦁", 35)
   ];
 
   List<Food> foods = [
@@ -113,7 +114,7 @@ class Food {
 controller: 
   q = quit game
   . = run 🏃🏻
-  
+
   h = hit 👊🏼
   e = eat 🍎
   t = take✨
